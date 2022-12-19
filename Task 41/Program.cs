@@ -13,7 +13,7 @@ do
     answer = Console.ReadLine();
     answer = answer.ToLower();
     if (answer == "stop") break;
-    if (int.TryParse(answer, out int number))
+    if (double.TryParse(answer, out double number))
     {
         if (number > 0) amount++;
     }
